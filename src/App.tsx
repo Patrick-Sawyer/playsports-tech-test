@@ -10,6 +10,7 @@ import Videos from './pages/Videos/Videos';
 import Navbar from './components/Navbar/Navbar';
 
 const App: React.FC = (): ReactElement => {
+
   return (
     <Router>
       <Navbar />
