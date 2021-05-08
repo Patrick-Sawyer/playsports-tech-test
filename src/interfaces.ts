@@ -1,7 +1,7 @@
 export interface VideoData {
     _id: string;
     description: string;
-    publishData: string;
+    publishDate: string;
     title: string;
     urlTite: string;
 }

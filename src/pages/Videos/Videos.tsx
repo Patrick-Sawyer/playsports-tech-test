@@ -32,7 +32,8 @@ const Videos: React.FC<Props> = (props: Props): ReactElement => {
     }
 
     return (
-        <div className="videos-container">
+        <div className="videos-container" id="videos">
+            <div className="title">LATEST VIDEOS</div>
             {renderVideos()}
         </div>
     );

@@ -1,0 +1,35 @@
+.video-player-container {
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  margin: 0px;
+  padding: 0px;
+}
+
+.video-player {
+  align-self: center;
+  opacity: 0;
+  transition: 1s;
+  margin: 0px;
+  padding: 0px;
+}
+
+.video-player-page {
+  height: 100vh;
+  width: 100vw;
+}
+
+.back-button {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  padding: 5px, 15px;
+}
+
+.back-button-inner {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}

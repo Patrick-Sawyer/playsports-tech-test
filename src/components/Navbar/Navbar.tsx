@@ -10,7 +10,7 @@ const Navbar: React.FC<Props> = (props: Props): ReactElement => {
 
     return (
         <div className="nav-container">
-            <img alt='logo' style={{ width: '100%' }} src={'./assets/navbar.png'} />
+            <img alt='logo' crossOrigin="anonymous" style={{ width: '100%' }} src={'./assets/navbar.png'} />
         </div>
     );
 };
